@@ -1,9 +1,9 @@
-"use client"
+'use client'
 import React from 'react';
 import '@/public/styles/Navbar.css';
 
 const Navbar = () => {
-  const handleNavigation = (sectionId: string) => { 
+  const handleNavigation = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
@@ -18,11 +18,10 @@ const Navbar = () => {
         </div>
       </div>
       <nav className='button-container'>
-        <a className='buttons'>More about Store</a>
-        <a className='buttons'>Menu</a>
-        <a className='buttons'>Contact details</a>
+        <button className='buttons' onClick={() => handleNavigation('about-section')}>More about Store</button>
+        <button className='buttons' onClick={() => handleNavigation('menu-section')}>Menu</button>
+        <button className='buttons' onClick={() => handleNavigation('contact-section')}>Contact details</button>
       </nav>
-
     </div>
   );
 };

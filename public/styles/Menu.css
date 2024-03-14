@@ -1,47 +1,56 @@
-/* Menu container styles */
-.menu-container {
-  width: 100%;
-  max-width: 400px; /* Adjust the max-width as needed */
-  margin: 0 auto;
-}
-
 /* Menu item styles */
 .menu-item {
+  width: 200px; /* Set a fixed width for each menu item */
   border: 1px solid #ccc;
   margin-bottom: 10px;
 }
 
 /* Item header styles */
 .item-header {
-  background-color: #007bff;
   color: #fff;
   padding: 10px;
   cursor: pointer;
 }
 
-/* Item details styles */
-.item-details {
-  padding: 10px;
-  background-color: #f9f9f9;
-  border-top: 1px solid #ccc;
-}
-
-/* Hide item details by default */
-.item-details {
-  display: none;
-}
-
-/* Show item details when item is expanded */
-.menu-item.expanded .item-details {
-  display: block;
-}
 .item-image {
-    max-width: 100%;
-    /* Ensure the image does not exceed the width of its container */
-    max-height: 100%;
-    /* Ensure the image does not exceed the height of its container */
-    display: block;
-    /* Ensure the image behaves as a block element */
-    margin: auto;
-    /* Center the image horizontally */
+  height: 200%; /* Set the height to 200% of the original size */
+  width: 100%; /* Set the width to 100% to fill the container */
+  display: block;
+  /* Ensure the image behaves as a block element */
+  margin: auto;
+  /* Center the image horizontally */
+  border: black solid 2px;
+}
+
+.Menu-heading {
+  font-size: 24px; /* Adjust heading font size */
+  margin-bottom: 10px; /* Add some spacing below the heading */
+  text-decoration: underline;
+}
+
+/* Menu item container styles */
+.Menuitemcontainer {
+  display: flex;
+  overflow: hidden; /* Hide overflow content */
+  animation: none; /* Initially, animation is paused */
+  grid-template-columns: repeat(3,1fr);
+}
+
+/* Animation will only be applied when the menu container is being hovered */
+.Menuitemcontainer:hover {
+  animation: continuousSlide 60s linear infinite; /* Apply continuous sliding animation */
+}
+/* Add a class to pause the animation */
+.Menuitemcontainer:active {
+  animation-play-state: paused;
+}
+
+/* Keyframes for continuous sliding animation */
+@keyframes continuousSlide {
+  0% {
+    transform: translateX(0);
+  } /* Start from initial position */
+  100% {
+    transform: translateX(-100%);
+  } /* Slide continuously to the left */
 }

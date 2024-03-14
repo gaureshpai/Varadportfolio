@@ -1,16 +1,13 @@
 
 .about-container {
-  max-width: 800px; /* Limit width for better readability */
   margin: 0 auto; /* Center the container */
   padding: 20px; /* Add some padding for spacing */
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 .about-heading {
   font-size: 24px; /* Adjust heading font size */
   margin-bottom: 10px; /* Add some spacing below the heading */
+  text-decoration: underline;
 }
 
 .about-text {

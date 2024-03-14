@@ -1,0 +1,47 @@
+/* Menu container styles */
+.menu-container {
+  width: 100%;
+  max-width: 400px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+}
+
+/* Menu item styles */
+.menu-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Item header styles */
+.item-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Item details styles */
+.item-details {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ccc;
+}
+
+/* Hide item details by default */
+.item-details {
+  display: none;
+}
+
+/* Show item details when item is expanded */
+.menu-item.expanded .item-details {
+  display: block;
+}
+.item-image {
+    max-width: 100%;
+    /* Ensure the image does not exceed the width of its container */
+    max-height: 100%;
+    /* Ensure the image does not exceed the height of its container */
+    display: block;
+    /* Ensure the image behaves as a block element */
+    margin: auto;
+    /* Center the image horizontally */
+}

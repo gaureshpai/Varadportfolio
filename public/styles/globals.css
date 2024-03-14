@@ -1,0 +1,12 @@
+.boddy {
+  flex: 1; /* Allow boddy to expand and fill the available space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13vh; /* Adjust the top margin as needed */
+  margin-bottom: 20px; /* Adjust the bottom margin as needed */
+  overflow: hidden;
+}
+body{
+    overflow-x: hidden;
+}

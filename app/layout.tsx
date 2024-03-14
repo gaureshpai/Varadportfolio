@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Logo from "@/components/Logo";
+import '@/public/styles/globals.css'
 
 export const metadata: Metadata = {
     title: "Gajanana Stores",
@@ -29,7 +31,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <body>
                 <div>
                     <Navbar/>
-                    {children}
+                    <div className="boddy">
+                        {children}
+                    </div>
                     <Footer/>
                 </div>
             </body>

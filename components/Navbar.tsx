@@ -12,20 +12,17 @@ const Navbar = () => {
 
   return (
     <div className='titlebar'>
-    <div className="navbar">
-      <div className='Name'>
-        <a href='./'>Gajanana Stores</a>
+      <div className="navbar">
+        <div className='Name'>
+          <a href='./'>Gajanana Stores</a>
+        </div>
       </div>
       <nav className='button-container'>
-        <ul>
-            <li className='buttons'><a href="#home">Home</a></li>
-            <li className='buttons'><a href="#New">New</a></li>
-            <li className='buttons'><a href="#Menu">Menu</a></li>
-            <li className='buttons'><a href="#Location">Location</a></li>
-            <li className='buttons'><a href="#Contact">Contact</a></li>
-        </ul>
+        <a className='buttons'>More about Store</a>
+        <a className='buttons'>Menu</a>
+        <a className='buttons'>Contact details</a>
       </nav>
-    </div>
+
     </div>
   );
 };

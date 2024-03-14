@@ -1,4 +1,4 @@
-.titlebar{
+.titlebar {
     background-color: #007bff;
     color: #fff;
     text-align: center;
@@ -6,52 +6,83 @@
     top: 0;
     left: 0;
     width: 100%;
+    height: 12vh;
 }
+
 .navbar {
-  margin: 0;
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  display: flex;
-  flex-direction: column; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar .Name {
-  font-size: 28px;
-  font-weight: bold; 
-  text-decoration: none;
-  width: 100%; 
-  text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    background-color: red;
 }
 
 .navbar ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 .navbar li {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 .navbar a {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 .navbar a:hover {
-  color: #ffd700;
-  text-decoration: none;
+    color: #ffd700;
+    text-decoration: none;
 }
-.buttons{
-  border: black solid 2px;
-  border-radius: 20px;
-  width: max-content;
-  padding: 5px 10px;
+
+.buttons {
+    border: black solid 2px;
+    border-radius: 20px;
+    width: max-content;
+    padding: 5px 10px;
 }
-.button-container{
-  width: 100vw;
-  align-items: left;
+
+.button-container {
+    width: 100vw;
+    align-items: left;
+    height: fit-content;
+    padding: 7px 14px;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .Name {
+        width: auto;
+    }
+
+    .navbar ul {
+        margin-top: 10px;
+    }
+
+    .navbar li {
+        margin: 5px 0;
+    }
+
+    .button-container {
+        padding: 10px;
+    }
 }

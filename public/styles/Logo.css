@@ -15,3 +15,9 @@
 .Logocontainer:hover {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Adjusted box shadow on hover */
 }
+.logodiv{
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

@@ -18,9 +18,9 @@ const Navbar = () => {
         </div>
       </div>
       <nav className='button-container'>
-        <button className='buttons' onClick={() => handleNavigation('about-section')}>More about Store</button>
-        <button className='buttons' onClick={() => handleNavigation('menu-section')}>Menu</button>
-        <button className='buttons' onClick={() => handleNavigation('contact-section')}>Contact details</button>
+        <a className='buttons' onMouseOver={() => handleNavigation('about-section')}>More about Store</a>
+        <a className='buttons' onMouseOver={() => handleNavigation('menu-section')}>Menu</a>
+        <a className='buttons' onMouseOver={() => handleNavigation('contact-section')}>Contact details</a>
       </nav>
     </div>
   );

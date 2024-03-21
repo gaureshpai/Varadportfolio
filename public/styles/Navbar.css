@@ -54,6 +54,7 @@
   transition: background-color 0.3s ease; /* Example transition effect */
   width: 70%;
   margin-left: 10%;
+  cursor: pointer;
 }
 
 .buttons:hover {

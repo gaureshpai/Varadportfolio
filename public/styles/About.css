@@ -2,6 +2,7 @@
 .about-container {
   margin: 0 auto; /* Center the container */
   padding: 20px; /* Add some padding for spacing */
+  width: 100%;
 }
 
 .about-heading {

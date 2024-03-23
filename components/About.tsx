@@ -3,9 +3,9 @@ import '@/public/styles/About.css'
 const About = () => {
   return (
     <div className="about-container">
-      <h2 className="about-heading">More about Store</h2>
+      <h2 className="about-heading">More about the Store</h2>
       <p className="about-text">Welcome to Gajanana Stores, your one-stop shop for all your needs!</p>
-      <p className="about-text">Our shop offers a wide range of products including groceries, household items, Food, and more.</p>
+      <p className="about-text">Our shop offers a wide range of products including Charmuri, household items, cold drinks, eatables, groceries and more.</p>
       
       {/* Google Maps Embed API */}
       <div className="map-container">

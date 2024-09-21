@@ -7,9 +7,11 @@ export const Container = styled.footer`
   margin-top: 10rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
-
+  .paaa{
+    color: white;
+  }
   .logo{
     font-size: 2.8rem;
   }

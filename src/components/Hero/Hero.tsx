@@ -6,6 +6,7 @@ import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import Hello from '../../assets/Hello.gif'
+import XIcon from '../../assets/x.webp'
 
 export function Hero() {
   return (
@@ -21,7 +22,7 @@ export function Hero() {
           <h3>Software Developer Associate - 1</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">1 &nbsp;Year of Experience</p>
+          <p className="small-resume">Currently at Mindstack Technologies</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
@@ -32,16 +33,23 @@ export function Hero() {
       <div className="social-media"><a
         href="https://www.linkedin.com/in/varadrajkamath"
         target="_blank"
-        rel="noreferrer"
+        rel="noreferrer noopener"
       >
         <img src={linkedin} alt="Linkedin" />
       </a>
         <a
           href="https://github.com/thisizvarad/"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
         >
           <img src={githubIcon} alt="GitHub" />
+        </a>
+        <a
+          href="https://x.com/thisizvarad21"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img src={XIcon} alt="X" />
         </a>
         </div>
         </ScrollAnimation>

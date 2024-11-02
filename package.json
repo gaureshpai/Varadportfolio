@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@formspree/react": "^2.2.4",
+    "@formspree/react": "^2.5.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^14.5.2",
@@ -11,19 +11,19 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "browserslist": "^4.23.3",
+    "browserslist": "^4.24.2",
     "react": "^17.0.2",
-    "react-animate-on-scroll": "^2.1.5",
+    "react-animate-on-scroll": "^2.1.9",
     "react-dom": "^17.0.2",
     "react-google-recaptcha": "^2.1.0",
-    "react-router-dom": "^6.2.1",
+    "react-router-dom": "^6.27.0",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.1",
     "react-toastify": "^8.1.0",
     "react-tsparticles": "^1.37.5",
     "styled-components": "^5.3.3",
     "typescript": "^4.4.2",
-    "validator": "^13.7.0",
+    "validator": "^13.12.0",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
@@ -51,16 +51,16 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-syntax-flow": "^7.24.7",
-    "@babel/plugin-transform-react-jsx": "^7.25.2",
+    "@babel/plugin-syntax-flow": "^7.26.0",
+    "@babel/plugin-transform-react-jsx": "^7.25.9",
     "@testing-library/dom": "^10.4.0",
-    "@types/react-animate-on-scroll": "^2.1.5",
-    "@types/react-google-recaptcha": "^2.1.2",
-    "@types/react-router-hash-link": "^2.4.4",
-    "@types/styled-components": "^5.1.18",
-    "@types/validator": "^13.7.1",
+    "@types/react-animate-on-scroll": "^2.1.8",
+    "@types/react-google-recaptcha": "^2.1.9",
+    "@types/react-router-hash-link": "^2.4.9",
+    "@types/styled-components": "^5.1.34",
+    "@types/validator": "^13.12.2",
     "classnames": "^2.5.1",
-    "postcss-normalize": "^13.0.0",
+    "postcss-normalize": "^13.0.1",
     "react-is": "^18.3.1"
   }
 }

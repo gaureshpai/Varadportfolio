@@ -5,7 +5,7 @@ export function Footer() {
     <Container className="footer">
       <div>
         <p>
-          Developed by <a href="https://gauresh.vercel.app" rel='noopener noreferrer' target='_blank' className='paaa'>Gauresh</a> using <img src={reactIcon} alt="React" />
+          Developed by <a href="https://kreekarvat.in" rel='noopener noreferrer' target='_blank' className='paaa'>Kreekarvat Technologies</a> using <img src={reactIcon} alt="React" />
         </p>
       </div>
     </Container>

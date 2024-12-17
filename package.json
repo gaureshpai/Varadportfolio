@@ -8,10 +8,10 @@
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^14.5.2",
     "@types/jest": "^29.5.14",
-    "@types/node": "^22.10.1",
+    "@types/node": "^22.10.2",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "browserslist": "^4.24.2",
+    "browserslist": "^4.24.3",
     "react": "^17.0.2",
     "react-animate-on-scroll": "^2.1.9",
     "react-dom": "^17.0.2",
@@ -61,6 +61,6 @@
     "@types/validator": "^13.12.2",
     "classnames": "^2.5.1",
     "postcss-normalize": "^13.0.1",
-    "react-is": "^18.3.1"
+    "react-is": "^19.0.0"
   }
 }
